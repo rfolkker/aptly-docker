@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22.5
 MAINTAINER Mike Purvis
 
 RUN go get github.com/smira/aptly
